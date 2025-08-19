@@ -2,7 +2,7 @@
 
 
 # Import user-defined functions 
-from geometry import compute_sphere_volume
+from geometry.geometry import compute_sphere_volume
 
 
 def main():
