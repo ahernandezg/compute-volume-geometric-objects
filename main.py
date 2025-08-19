@@ -1,9 +1,5 @@
-import numpy as np
 
-
-def compute_sphere_volume(sphere_radius:float)->float:
-    return 4/3 * np.pi *sphere_radius**3
-
+from geometry import compute_sphere_volume
 
 def main():
     sphere_radius = 5
@@ -11,4 +7,3 @@ def main():
     
 if __name__=='__main__':
     main()
-    
